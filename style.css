@@ -1,0 +1,1393 @@
+*{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+ 
+    
+}
+header{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: center;
+    align-items: baseline;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    transition: background-colors 0.3s ease;
+}
+
+body.scrolled header{
+    background-color: #ffffff;
+}
+nav ul li{
+    display: inline-block;
+    
+    
+}
+
+h6 {
+    padding-top: 10%;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #013042;
+    overflow: visible;
+}
+header nav li:hover{
+    text-decoration: underline;
+}
+.headerbutton{
+    margin-right: 0px;
+    border: 0px;
+    background-color: #c01a2e;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+}
+.headerbutton i{
+    color: white;
+}
+
+.logo{
+    width: 134px;
+    margin-left: 30px;
+}
+
+
+
+body{
+    margin: 0;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+    overflow-x: hidden;
+    background-image: url(./img/fondo2.png);
+    width: 100%;
+    
+    
+}
+footer{
+    display: flex;
+    
+    gap: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-items: center;
+    color: #013042;
+    bottom: 0;
+}
+
+.logofooter{
+    width: 130px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.redesfooter{
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.redesfooter a{
+    color: #c01a2e;
+}
+
+
+
+.checkbtn{
+    font-size: 35px;
+    color: #013042;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.btnflotante{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 80px;
+    right: 30px;
+    background: green;
+    color: white;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btnflotante:hover{
+    background: white;
+    color: green;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button a{
+    color: #013042;
+}
+
+.container1{
+    
+    display: flex;
+    
+    line-height: 30px;
+     /* ff 3.6+ */
+    
+    
+}
+
+.loquitos img{
+    padding-top: 60px;
+    
+}
+
+.container1 .soluciones{
+    color: #013042;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.container1 .ecommerce{
+    color: #c01a2e;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.container1 p{
+    color: #013042;
+    font-size: 20px;
+}
+
+.container1 a{
+    text-decoration: none;
+    color: white;
+    background-color: #c01a2e;
+    padding: 10px;
+    border-radius: 10px;
+}
+.solucionesecommerce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    padding-top: 15%;
+    
+}
+
+.solucionesecommerce a:hover{
+    font-weight: bold;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    text-align: center;
+}
+
+section h6{
+    color: #c01a2e;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+section p{
+    color: #013042;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.servicios{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-top: 50px;
+    
+}
+
+.categoriafantasma {
+    background: transparent;
+    padding: 10px;
+    border-radius: 30px;
+    width: 23%;
+    margin-top: -7%;
+    margin-bottom: 0px;
+    height: 500px;
+}
+
+.categoria1 {
+    background: #ffffff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 30px;
+    width: 23%;
+    margin-top: -7%;
+    margin-bottom: -2%;
+    height: 500px;
+    
+}
+.categoria1 img {
+    width: 100px;
+    margin: 10px;
+}
+.categoria1 p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.categoria1 i {
+    font-size: 25px;
+    color: #013042;
+    padding-top: 20px;
+}
+
+.categoria2 {
+    background: #ffffff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 30px;
+    width: 23%;
+    margin-top: -3%;
+    margin-bottom: -1%;
+    height: 500px;
+}
+.categoria2 img {
+    width: 100px;
+    margin: 10px;
+}
+.categoria2 p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.categoria2 i {
+    font-size: 25px;
+    color: #013042;
+    padding-top: 20px;
+}
+
+
+.categoria3 {
+    background: #ffffff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 30px;
+    width: 23%;
+    margin-top: 1%;
+    margin-bottom: -1%;
+    height: 500px;
+}
+.categoria3 img {
+    width: 100px;
+    margin: 10px;
+}
+.categoria3 p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.categoria3 i {
+    font-size: 25px;
+    color: #013042;
+    padding-top: 20px;
+}
+
+.fa-solid {
+    padding-bottom: 20%;
+}
+
+
+.tienda{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.chamulo {
+    text-align: left;
+    width: 30%;
+    margin: 0%;
+}
+
+.chamulo h2 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.chamulo p {
+    color: gray;
+    font-size: 24;
+}
+
+.chamulo a {
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.tienda div img{
+    width: 650px;
+}
+.tienda h3{
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+
+.botongeneral{
+    text-decoration: none;
+    color: white;
+    background-color: #c01a2e;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.nosotro{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.nosotro img{
+    width: 700px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.nosotro h3{
+    color: #c01a2e;
+    
+}
+
+.nosotro h2{
+    color: #013042;
+}
+
+.nosotro a{
+    text-decoration: none;
+    color: white;
+    background-color: #c01a2e;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.textito{
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.textito h2 {
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.textito p {
+    color: gray;
+    font-size: 16px;
+    text-align: left;
+}
+
+.textito a {
+    font-weight: 300;
+    border-radius: 9px;
+    top: 50%;
+}
+
+.textito h3{
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.mundo{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.multinacionales {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.multinacionales h3{
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.multinacionales h2{
+    color: #013042;
+    font-weight: auto;
+    font-size: 42px;
+}
+
+.multinacionales p {
+    color: gray;
+    font-size: 24;
+    width: 400px;
+}
+
+.mapaimg{
+    position: absolute;
+    height: auto;
+    width: 900px;
+    padding-top: 20px;
+}
+
+.marcadoresimg{
+    display: block;
+    position: right;
+    width: 1000px;
+    z-index: 0;
+}
+.containerproyectos{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    background-color: transparent;
+}
+
+.containerproyectos h3{
+    color: #c01a2e;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.proyecto-muebleria p{
+    text-align: left;
+}
+.img-derecha img{
+    width: 300px;
+}
+.containerproyectos h2{
+    font-weight: 600;
+    color: #013042;
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+.proyecto-ferretria h3{
+    color: #fe6686;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+.proyecto-muebleria h3 {
+    color: #54d6a1;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+.proyecto-jugueteria h3 {
+    color: #fe9a3f;
+    font-size: 18px;
+    letter-spacing: normal;
+}
+
+.proyecto-ferretria .proyecto-muebleria .proyecto-jugueteria {
+    font-weight: 600;
+    color: #013042;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.proyectos{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 100px;
+    text-align: left;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.proyectos .botongeneral{
+    width: 300px;
+}
+
+.proyectos img{
+    width: 300px;
+}
+
+.proyecto-muebleria img {
+    float: right;
+}
+
+.porfolio{
+    color: black;
+    font-weight: bold;
+    padding-top: 200px;
+    text-decoration: none;
+    border-bottom: 2px solid #c01a2e;
+}
+.botongeneral1 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.logosclientes{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logosclientes img{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: grayscale(1);
+    background-color: var(--gray);
+
+}
+
+.logosclientes img:hover{
+    filter: none;
+    background-color: none;
+}
+
+.clientestitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+}
+.clientestitulo h3{
+    color: #c01a2e;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.formulario h3 {
+    font-weight: bold;
+}
+.formulario p {
+    width: 400px;
+    height: auto;
+}
+
+.clientestitulo h2{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    color: #013042;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:#c01a2e; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ffffff; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color:#c01a2e; 
+    border-color: #c01a2e; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  .formulario{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+textarea {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ffffff;
+}
+.clientestitulo {
+
+}
+.formulario input {
+    border: 1px solid transparent;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.formulario h3{
+    font-size: 20px;
+    color: #013042;
+}
+.cosopumformulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.cosopumformulario a{
+    text-decoration: none;
+}
+
+.was{
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: yellowgreen;
+    padding: 10px;
+}
+
+.loc{
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: orangered;
+    padding: 10px;
+}
+
+.mail{
+    color: white;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: salmon;
+    padding: 10px;
+}
+.contactoform{
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    line-height: 5px;
+    margin-top: 10px;
+}
+.contactoform h5{
+    color: #013042;
+    font-weight: bold;
+    font-size: 16px;
+}
+.contactoform p{
+    color: gray;
+    
+}
+
+.areasfooter{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-top: 2%;
+}
+
+.areasfooter a{
+    text-decoration: none;
+    color: #c01a2e;
+    font-size: 13px;
+}
+.areasfooter h3{
+    font-size: 15px;
+    color: #013042;
+}
+
+
+footer p{
+    padding-right: 100px;
+    padding-left: 30px;
+}
+
+
+.piedepie{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 2.5%;
+
+
+}
+@media screen and (max-width: 600px){
+    
+    body{
+        padding: 0;
+        overflow-x: hidden;
+        
+        
+    }
+    header{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        z-index: 1;
+        padding-right: 10px;
+        
+        
+        
+        
+    }
+    .logo{
+        margin-left: 0;
+    }
+    
+
+    .checkbtn{
+        display: block;     
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100uv;
+        background: #013042;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;    
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        
+        
+
+    }
+    nav ul li a{
+        color: white;
+             
+    }
+
+    nav ul li a:hover{
+        color: white;
+             
+    }
+    
+    
+    #check:checked ~ ul{
+        left:0;
+    }
+    
+    .btnflotante{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        bottom: 80px;
+        right: 30px;
+        background: green;
+        color: white;
+        border-radius: 60px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .btnflotante:hover{
+        background: white;
+        color: green;
+    }
+
+   .headerbutton{
+    display: none;
+   }
+
+   .container1{
+    flex-direction: column;
+    padding-top: 100px;
+    }
+
+    
+    .loquitos{
+        padding: 30;
+        justify-content: center;
+        align-items: center;
+    }
+    .loquitos img{
+        width: 90%;
+        padding: 20px;
+        
+
+    }
+
+    section p{
+        font-size: 20px;
+    }
+
+    .solucionesecommerce{
+        margin-left: 5px;
+        margin-right: 0;
+        width: auto;
+    }
+
+    .solucionesecommerce p{
+        font-size: 15px;
+    }
+
+
+    .tienda{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35%;
+        margin-bottom: 35%;
+        gap: 0;
+        
+    }
+
+    .tienda div{
+        margin: 0;
+        padding: 2px;
+    }
+    .tienda div img{
+        width: 200px;
+    }
+    
+    .chamulo{
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    .chamulo a{
+        padding: 10px;
+    }
+    .servicios{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servicios h2 {
+        font-weight: 600;
+        font-size: 42px;
+    }
+
+    .servicios h6 {
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+    }
+
+    .categoria1 {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .categoria1 img{
+        width: 50px;
+    }
+    .categoria1 p{
+        font-size: 24px;
+        color: gray;
+    }
+    .categoria1 h2{
+        font-size: 15px;
+    }
+
+    .categoria2 {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .categoria2 img{
+        width: 50px;
+    }
+    .categoria2 p{
+        font-size: 24px;
+        color: gray;
+    }
+    .categoria2 h2{
+        font-size: 15px;
+    }
+
+    .categoria3 {
+        width: 90%;
+        margin: 0;
+        padding: 10px;
+    }
+    .categoria3 img{
+        width: 50px;
+    }
+    .categoria3 p{
+        font-size: 24px;
+        color: gray;
+    }
+    .categoria3 h2{
+        font-size: 15px;
+    }
+
+    
+    .nosotro{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nosotro a{
+        font-size: 15px;
+    }
+    .nosotro img{
+        width: 300px;
+    }
+
+    .textito{
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .container1 .soluciones{
+        font-size: 50px;
+    }
+    .container1 .ecommerce{
+        font-size: 50px;
+    }
+    .mundo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 100px;
+    }
+    .mapaimg{
+        position: absolute;
+        width: 400px;
+        padding-top: 20px;
+    }
+
+    .marcadores img{
+        position: relative;
+        width: 100px;
+        z-index: 0;
+    }
+
+    .multinacionales h2{
+        font-size: 30px;
+    }
+
+    .multinacionales h3{
+        font-size: 17px;
+    }
+
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+
+    .logosclientes img{
+        width: 35px;
+        padding-left: 5px;
+        padding-right: 5px;
+        filter: none;
+        background-color: none;
+    
+    }
+
+    .formulario{
+        flex-direction: column;
+        padding-left: 5px;
+        padding-right: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact_form{  
+        width: 300px; 
+        height: auto;
+        margin: auto;
+        border-radius: 10px;  
+        padding-top: 30px;
+        padding-bottom: 20px;  
+        background-color: #fbfbfb; 
+        padding-left: 0; 
+      }
+      
+      
+      input{
+        background-color: #fbfbfb; 
+        width: 300px; 
+        height: 40px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color:#c01a2e; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+      }
+      
+      
+      textarea{
+        background-color: #fbfbfb; 
+        width: 300px; 
+        height: 150px; 
+        border-radius: 5px;  
+        border-style: solid; 
+        border-width: 1px; 
+        border-color: #c01a2e; 
+        margin-top: 10px;  
+        padding-left: 10px;
+        margin-bottom: 20px; 
+        padding-top: 15px; 
+      }
+      
+      
+      label{
+        display: block; 
+        float: center;  
+      }
+      
+      
+      button{
+        height: 45px; 
+        padding-left: 5px;
+        padding-right: 5px;   
+        margin-bottom: 20px; 
+        margin-top: 10px;   
+        text-transform: uppercase;
+        background-color:#c01a2e; 
+        border-color: #c01a2e; 
+        border-style: solid; 
+        border-radius: 10px;  
+        width: 300px;   
+        cursor: pointer;
+      }
+    
+    .cosopumformulario p{
+        font-size: 10px;
+    }
+    .areasfooter a{
+        font-size: 8px;
+    }
+
+    .areasfooter h3{
+        font-size: 8px;
+    }
+
+    .piedepie{
+        justify-content: start;
+        align-items: baseline;
+    }
+
+    .piedepie h5{
+        font-size: 15px;
+
+    }
+    footer div p{
+        font-size: 10px;
+        padding-left: 10px;
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .redesfooter{
+        padding: 0;
+        padding-left: 10px;
+
+    }
+    .redesfooter i{
+        font-size: 15px;
+    }
+
+    .logofooter{
+        padding: 0;
+    }
+    footer{
+        margin-top: 55px;
+        gap: 0;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+        
+}
+
+.loginbutton {
+    margin-left: 0%;
+    background-color: transparent;
+    border: 1px solid #c01a2e;
+    border-radius: 10px;
+    color: #c01a2e;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.buscar {
+    position: inline;
+    padding: 5px;
+}
+
+.buscar input {
+    background-color: transparent;
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: transparent;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.btn {
+    position: inline;
+    top: 0;
+    right: 0;
+    background: transparent;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #c01a2e;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscar:hover input {
+    background-color: transparent;
+    width: 240px;
+    border: 1px solid #c01a2e;
+    color: #333;
+}
+
+.nuestroEquipo {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.nuestroEquipo h3 {
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.nombreyrol p {
+    text-align: left;
+    color: gray;
+    font-size: 12px;
+}
+.nombreyrol b {
+    font-size: 16px;
+    color: black;
+}
+.nuestroEquipo h2 {
+	color: #013042;
+    font-weight: bold;
+	align-items: center;
+	flex-direction: column;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.personalEquipo {
+	display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+    filter: none;
+    background-color: none;
+	position: relative;
+}
+
+.personalEquipo img {
+    padding-top: 50%;
+}
+
+.personalEquipo div:nth-child(2) {
+  margin-top: 50px;
+}
+
+.personalEquipo div:nth-child(4) {
+  margin-top: 50px;
+}
+
+.personalEquipo img {
+	width: 200px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.personalEquipo img:first-child {
+
+}
+
+.personalEquipo img:last-child {
+	margin-bottom: 50px;
+}
+
+.personalEquipo p {
+	flex: 1;
+	margin-top: 10px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  text-align: center;
+}
+
+.testimonial h3 {
+    color: #c01a2e;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+}
+
+.testimonial h2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #013042;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.testimonial h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.testimonial .testimonial-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial .testimonial-content img {
+  margin-left: 20px;
+}
+
+.testimonial .testimonial-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}

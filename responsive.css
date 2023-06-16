@@ -1,0 +1,117 @@
+@media screen and (max-width: 576px) {
+
+    .marcadoresimg {
+        margin-top: 1%;
+        margin-left: -3.5%;
+        max-width: 470px;
+    }
+
+    .section-responsive {
+        margin-top: 25%;
+    }
+
+    .servicios h2 {
+        font-weight: 600;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .proyectos {
+        justify-content: center;
+        align-items: center;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .nosotro p {
+        text-align: center;
+    }
+    
+    .proyecto-muebleria img{
+        float: right;
+    
+    }
+    .proyecto-muebleria {
+        margin: 20%;
+        padding-right: 0%;
+    }
+    .proyecto-muebleria div {
+        padding-left: 0%;
+    }
+    .proyecto-muebleria p {
+        text-align: left;
+    }
+    .proyecto-muebleria {
+        position: relative;
+        justify-content: left;
+    }
+    .solucionesecommerce {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+        z-index: 1;
+    }
+    .loquitos {
+        position: absolute;
+        margin-top: 85%;
+    }
+    .login{
+        display: none;
+    }
+    .buscar {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .personalEquipo {
+        display: inline-table;
+    }
+    .testimonial {
+        padding: 20px;
+    }
+    .testimonial-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .testimonial-content img {
+        width: 200px;
+        height: auto;
+    }
+    .container1 img {
+        width: 800;
+        height: auto;
+    }
+    .mapitaloco {
+        width: 450px;
+        height: auto;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {}
+
+@media screen and (max-width: 1200px) {
+
+    .marcadoresimg {
+        margin-top: 1%;
+        margin-left: -3.5%;
+        max-width: 470px;
+    }
+
+    .servicios h2 {
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+}
